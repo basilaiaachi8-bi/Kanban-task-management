@@ -1,0 +1,204 @@
+{
+  "boards": [
+    {
+      "id": "board-1",
+      "name": "Platform Launch",
+      "columns": [
+        {
+          "id": "col-1",
+          "name": "Todo",
+          "tasks": [
+            {
+              "id": "task-1",
+              "title": "Build UI for onboarding flow",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [
+                { "title": "Sign up page", "isCompleted": true },
+                { "title": "Sign in page", "isCompleted": false },
+                { "title": "Welcome page", "isCompleted": false }
+              ]
+            },
+            {
+              "id": "task-2",
+              "title": "Build UI for search",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [{ "title": "Search page", "isCompleted": false }]
+            },
+            {
+              "id": "task-3",
+              "title": "Setting up CI/CD pipeline",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [
+                { "title": "Configure GitHub Actions", "isCompleted": true }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "col-2",
+          "name": "Doing",
+          "tasks": [
+            {
+              "id": "task-4",
+              "title": "Design settings and search pages",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                { "title": "Settings - Account page", "isCompleted": true },
+                { "title": "Settings - Billing page", "isCompleted": false }
+              ]
+            },
+            {
+              "id": "task-5",
+              "title": "Add account management endpoints",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                { "title": "API routing", "isCompleted": false },
+                { "title": "Authentication", "isCompleted": false }
+              ]
+            },
+            {
+              "id": "task-6",
+              "title": "Design onboarding flow",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                { "title": "Wireframing", "isCompleted": true },
+                { "title": "Prototyping", "isCompleted": true }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "col-3",
+          "name": "Done",
+          "tasks": [
+            {
+              "id": "task-7",
+              "title": "Conduct 5 wireframe tests",
+              "description": "Ensure the layout works across different screen sizes and user groups.",
+              "status": "Done",
+              "subtasks": [
+                { "title": "Complete 5 wireframe tests", "isCompleted": true }
+              ]
+            },
+            {
+              "id": "task-8",
+              "title": "Create wireframe prototype",
+              "description": "Create low-fidelity wireframes for the main user flows.",
+              "status": "Done",
+              "subtasks": [
+                { "title": "Create low-fi wireframes", "isCompleted": true }
+              ]
+            },
+            {
+              "id": "task-9",
+              "title": "Review results of usability tests",
+              "description": "Analyze feedback from test participants and compile report.",
+              "status": "Done",
+              "subtasks": [
+                { "title": "Compile feedback report", "isCompleted": true }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "board-2",
+      "name": "Marketing Plan",
+      "columns": [
+        {
+          "id": "col-4",
+          "name": "Todo",
+          "tasks": [
+            {
+              "id": "task-10",
+              "title": "Plan launch campaign",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Identify marketing channels",
+                  "isCompleted": false
+                },
+                { "title": "Draft promotional copy", "isCompleted": false }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "col-5",
+          "name": "Doing",
+          "tasks": [
+            {
+              "id": "task-11",
+              "title": "Social media strategy",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                { "title": "Instagram post scheduling", "isCompleted": true }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "col-6",
+          "name": "Done",
+          "tasks": [
+            {
+              "id": "task-12",
+              "title": "Define target audience",
+              "description": "",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Market research and user personas",
+                  "isCompleted": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "board-3",
+      "name": "Roadmap",
+      "columns": [
+        {
+          "id": "col-7",
+          "name": "Now",
+          "tasks": [
+            {
+              "id": "task-13",
+              "title": "Launch v1.0",
+              "description": "",
+              "status": "Now",
+              "subtasks": [
+                {
+                  "title": "Deploy to production environment",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "col-8",
+          "name": "Next",
+          "tasks": []
+        },
+        {
+          "id": "col-9",
+          "name": "Later",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}
